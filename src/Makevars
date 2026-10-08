@@ -1,0 +1,6 @@
+PKG_CPPFLAGS = -I.
+ifeq ($(AGRIQL_LIBDIR),)
+PKG_LIBS = -lagriql_ffi
+else
+PKG_LIBS = -L$(AGRIQL_LIBDIR) -Wl,-rpath,$(AGRIQL_LIBDIR) -lagriql_ffi
+endif

@@ -1,0 +1,4 @@
+useDynLib(agriql, agriql_r_query)
+export(aqdb_connect)
+export(aqdb_query)
+export(aqdb_frame)

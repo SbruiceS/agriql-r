@@ -1,0 +1,11 @@
+Package: agriql
+Title: Client for the AgriQL Engine
+Version: 3.10.1
+Authors@R: person("Sbruice", "Singh", email = "sbruicesingh@haclon.in", role = c("aut", "cre"))
+Description: Runs AgriQL queries through libagriql_ffi. This package is not a database and does not copy the AQDB engine.
+License: Apache License (== 2.0)
+URL: https://github.com/SbruiceS/agriql-r
+BugReports: https://github.com/SbruiceS/agriql-r/issues
+Encoding: UTF-8
+SystemRequirements: libagriql_ffi
+NeedsCompilation: yes
